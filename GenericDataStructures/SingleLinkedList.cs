@@ -4,14 +4,19 @@ using System.Linq;
 
 namespace GenericDataStructures
 {
-    public class SingleLinkedList<T>: IEnumerable
+    public class SingleLinkedList<T>: ISingleLinkedList<T>, IEnumerable
     {
-        private class Node
-        {
-
-        }
         public SingleLinkedList()
         {
+            
+        }
+
+
+        private class Node
+        {
+            public T Value { get; set; }
+            public Node NextValue{ get; set;}
+
         }
     }
 }
