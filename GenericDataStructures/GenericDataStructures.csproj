@@ -35,6 +35,8 @@
     <Compile Include="ArrayList.cs" />
     <Compile Include="TestClass.cs" />
     <Compile Include="IArrayList.cs" />
+    <Compile Include="SingleLinkedList.cs" />
+    <Compile Include="ISingleLinkedList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
