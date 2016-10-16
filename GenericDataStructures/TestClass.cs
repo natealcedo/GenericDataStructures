@@ -6,7 +6,7 @@ namespace GenericDataStructures
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("This is a new Branch!");
         }
     }
 }
