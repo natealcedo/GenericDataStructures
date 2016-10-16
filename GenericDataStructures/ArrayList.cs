@@ -111,10 +111,7 @@ namespace GenericDataStructures
                 Array.Copy(listArray, newListArray, arrayElementCounter);
                 listArray = newListArray;
             }
-            else
-            {
-                return;
-            }
+            return;
         }
 
         public IEnumerator GetEnumerator()
