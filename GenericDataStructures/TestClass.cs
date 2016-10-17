@@ -12,8 +12,8 @@ namespace GenericDataStructures
             list.Add(1);
             list.Add(1);
             list.Add(1);
-
-            for (int i = 0; i < list.Count; i++)
+            list.Clear();
+            foreach (var i in list)
             {
                 Console.WriteLine(i);
             }
